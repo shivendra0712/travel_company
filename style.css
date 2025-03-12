@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #b2b2b251;
 }
 
 
@@ -93,23 +94,26 @@ nav {
 }
 
 .button_text i {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .button_box {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     color: white;
     background-color: #04A990;
 }
 
 form>input {
-    padding: 4% 6%;
+    padding: 5% 6%;
     border: none;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
 }
 
 .destinations_image {
